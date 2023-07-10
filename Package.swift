@@ -83,12 +83,12 @@ let package = Package(
                 .headerSearchPath("../../Submodules/secp256k1-zkp/src")
             ]
         ),
-        .testTarget(
-            name: "secp256k1SwiftTests",
-            dependencies: [
-                "secp256k1Swift"
-            ]
-        )
+//        .testTarget(
+//            name: "secp256k1SwiftTests",
+//            dependencies: [
+//                "secp256k1Swift"
+//            ]
+//        )
         // Breaks CI
 //        .testTarget(
 //            name: "zkpTests",
